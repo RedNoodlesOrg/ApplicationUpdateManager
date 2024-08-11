@@ -1,0 +1,242 @@
+[
+  {
+    "Name": "7zip.7zip",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Git.Git",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.PowerToys",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.WindowsTerminal",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.WSL",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.PowerShell",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Nvidia.GeForceExperience",
+    "Category": "Productivity",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "JanDeDobbeleer.OhMyPosh",
+    "Category": "Other Apps",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Yubico.Authenticator",
+    "Category": "Data management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "AgileBits.1Password",
+    "Category": "Data management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "geeksoftwareGmbH.PDF24Creator",
+    "Category": "Business",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Notepad++.Notepad++",
+    "Category": "Business",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Mozilla.Firefox",
+    "Category": "Business",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "GIMP.GIMP",
+    "Category": "Photos & Media",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Greenshot.Greenshot",
+    "Category": "Photos & Media",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.OneDrive",
+    "Category": "Business",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "VideoLAN.VLC",
+    "Category": "Photos & Media",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "DigitalScholar.Zotero",
+    "Category": "Books & Reference",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "HandBrake.HandBrake",
+    "Category": "Photos & Media",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "OBSProject.OBSStudio",
+    "Category": "Collaboration & Social",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Mozilla.Firefox.DeveloperEdition",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.VisualStudioCode",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "WinSCP.WinSCP",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "RedHat.Podman",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "RedHat.Podman-Desktop",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Postman.Postman",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "PuTTY.PuTTY",
+    "Category": "Development & Design",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Valve.Steam",
+    "Category": "Collaboration & Social",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "OpenWhisperSystems.Signal",
+    "Category": "Collaboration & Social",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Discord.Discord",
+    "Category": "Collaboration & Social",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.Autoruns",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.BGInfo",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.Desktops",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.FindLinks",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.Handle",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.ProcessExplorer",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.ProcessMonitor",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.PsTools",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.RDCMan",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.Sigcheck",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.Strings",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.Sysmon",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.TCPView",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Sysinternals.ZoomIt",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.WinDbg",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.Win32ContentPrepTool",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.WingetCreate",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "Microsoft.MediaCreationTool",
+    "Category": "Computer management",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  }
+]
