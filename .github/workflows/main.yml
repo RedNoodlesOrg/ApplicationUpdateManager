@@ -3,17 +3,22 @@ on:
  workflow_dispatch:
  schedule:
    - cron: "0 0 * * *"
-
+permissions:
+  id-token: write
+  contents: read
 jobs:
  update:
   runs-on: windows-latest
   steps:
   - uses: actions/checkout@v4
+  - name: Azure login
+    uses: azure/login@v2
+    with:
+      client-id: ${{ secrets.AZURE_CLIENT_ID }}
+      tenant-id: ${{ secrets.AZURE_TENANT_ID }}
   - name: Invoke Update
     env:
-     AZURE_TENANT_ID: ${{ vars.AZURE_TENANT_ID }}
-     AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
-     AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+     AZURE_USE_DEFAULT_CREDENTIALS: true 
     shell: pwsh
     run: |
      .\Invoke-ApplicationUpdate.ps1
