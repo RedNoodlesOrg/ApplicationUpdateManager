@@ -1,0 +1,19 @@
+name: Update Apps
+on:
+ workflow_dispatch:
+ schedule:
+   - cron: "0 0 * * *"
+
+jobs:
+ update:
+  runs-on: windows-latest
+  steps:
+  - uses: actions/checkout@v4
+  - name: Invoke Update
+    env:
+     AZURE_TENANT_ID: ${{ vars.AZURE_TENANT_ID }}
+     AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
+     AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+    shell: pwsh
+    run: |
+     .\Invoke-ApplicationUpdate.ps1
