@@ -1,2 +1,2 @@
 # ApplicationUpdateManager
-Script to update to update applications from winget to intune
+Script to deploy/update applications from winget to intune
