@@ -2,9 +2,6 @@
 Install-Module -Name WinTuner -Force
 Import-Module WinTuner
 
-# Remove package folder
-Remove-Item ".\packages" -Recurse
-
 # Setup package folder
 New-Item ".\packages" > $null
 
