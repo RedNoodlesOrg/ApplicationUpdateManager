@@ -2,9 +2,6 @@
 Install-Module -Name WinTuner -Force
 Import-Module WinTuner
 
-# Setup package folder
-New-Item ".\packages" > $null
-
 # Apps in library
 $apps = Get-Content -Path .\apps.json -Raw | ConvertFrom-Json
 
