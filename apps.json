@@ -238,5 +238,10 @@
     "Name": "Microsoft.MediaCreationTool",
     "Category": "Computer management",
     "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
+  },
+  {
+    "Name": "LibreCAD.LibreCAD",
+    "Category": "Business",
+    "AvailableFor": "5f45f771-a61e-42a4-b338-e132a95330c1"
   }
 ]
