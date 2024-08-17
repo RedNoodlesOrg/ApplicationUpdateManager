@@ -9,7 +9,6 @@ $apps = Get-Content -Path .\apps.json -Raw | ConvertFrom-Json
 $apps_intune = Get-WtWin32Apps
 
 function Write-Status ($Status) {
-    swi
     switch -Exact ($status.Result) {
         "OK" {
             Write-Verbose -MessageData $status.Message
@@ -71,7 +70,6 @@ foreach ($app in $apps) {
             finally {
                 Write-Status -Status $status
             }
-            
         }
         else {
             $status = [PSCustomObject]@{
