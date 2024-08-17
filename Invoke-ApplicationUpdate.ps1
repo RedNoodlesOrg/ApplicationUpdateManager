@@ -15,7 +15,7 @@ function Write-Status ($Status) {
             Write-Host "$($status.Name): $($status.AppStatus)"
         }
         "ERROR" { 
-            Write-Error -Exception $status.Message
+            Write-Error -Message $status.Message
             Write-Host "$($status.Name): ERROR"
         }
         Default { Write-Error -Message "Unspecified Status: $($status.Result)" }
