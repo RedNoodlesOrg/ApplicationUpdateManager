@@ -9,7 +9,8 @@ $apps = Get-Content -Path .\apps.json -Raw | ConvertFrom-Json
 $apps_intune = Get-WtWin32Apps
 
 function Write-Status ($Status) {
-    switch ($status.Result) {
+    swi
+    switch -Exact ($status.Result) {
         "OK" {
             Write-Verbose -MessageData $status.Message
             Write-Host "$($status.Name): $($status.AppStatus)"
@@ -52,7 +53,7 @@ foreach ($app in $apps) {
     else {
         # If app is in Intune and has an update available, then deploy it and supersed it
         if ($in_app.IsUpdateAvailable -eq $true) {
-            [PSCustomObject]@{
+            $status = [PSCustomObject]@{
                 Name      = $in_app.PackageId
                 AppStatus = "UPDATE AVAILABLE"
                 Result    = $null
