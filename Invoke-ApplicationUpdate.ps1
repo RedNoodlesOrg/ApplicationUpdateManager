@@ -89,7 +89,12 @@ foreach ($app in $apps) {
 # Remove superseded apps
 $old_apps = Get-WtWin32Apps -Superseded $true
 foreach ($old_app in $old_apps) {
-    Remove-WtWin32App -AppId $old_app.GraphId
+    try {
+        Remove-WtWin32App -AppId $old_app.GraphId
+    }
+    catch {
+        # Ignore
+    }
 }
 
 # Remove package folder
