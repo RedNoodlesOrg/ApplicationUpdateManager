@@ -96,6 +96,10 @@ foreach ($old_app in $old_apps) {
         # Ignore
     }
 }
-
-# Remove package folder
-Remove-Item ".\packages" -Recurse
+try {
+    # Remove package folder
+    Remove-Item ".\packages" -Recurse
+}
+catch {
+    # Ignore
+}
