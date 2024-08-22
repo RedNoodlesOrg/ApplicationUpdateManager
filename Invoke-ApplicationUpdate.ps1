@@ -6,7 +6,7 @@ Import-Module WinTuner
 $apps = Get-Content -Path .\apps.json -Raw | ConvertFrom-Json
 
 # Apps in Intune
-$apps_intune = Get-WtWin32Apps
+$apps_intune = Get-WtWin32Apps -Superseded $false
 
 function Write-Status ($Status) {
     switch -Exact ($status.Result) {
