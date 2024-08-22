@@ -62,6 +62,7 @@ foreach ($app in $apps) {
                 Message   = $null
             }
             try {
+                $in_app
                 $result = New-WtWingetPackage -PackageId $app.Name -PackageFolder .\packages | Deploy-WtWin32App -GraphId $in_app.GraphId
                 $status.Message = $result
                 $status.Result = "OK"
