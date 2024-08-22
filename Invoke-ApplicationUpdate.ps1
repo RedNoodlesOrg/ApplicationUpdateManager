@@ -11,7 +11,10 @@ $apps_intune = Get-WtWin32Apps -Superseded $false
 function Write-Status ($Status) {
     switch -Exact ($status.Result) {
         "OK" {
-            Write-Verbose -Message $status.Message
+            if ($null -ne $Status.Message) {
+                Write-Verbose -Message $status.Message
+            }
+            
             Write-Host "$($status.Name): $($status.AppStatus)"
         }
         "ERROR" { 
